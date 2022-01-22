@@ -6,7 +6,9 @@ package main
 // pour les deux dernières extensions.
 func (g *game) Update() error {
 
-	g.system.Update()
+	if !g.system.PauseGame {
+		g.system.Update()
+	}
 
 	return nil
 }

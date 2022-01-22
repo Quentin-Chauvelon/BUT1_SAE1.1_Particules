@@ -14,12 +14,46 @@ type Config struct {
 	Debug                    bool
 	InitNumParticles         int
 	RandomSpawn              bool
-	SpawnX, SpawnY           int
+	SpawnX, SpawnY           float64
+	SpawnXRange, SpawnYRange float64
 	SpawnRate                float64
 	MinXSpeed				 float64
 	MaxXSpeed				 float64
 	MinYSpeed				 float64
 	MaxYSpeed				 float64
+
+	Red						 float64
+	Green					 float64
+	Blue					 float64
+
+	Multicolore				 bool
+
+	Gravite 				 bool
+	ConstanteGravite		 float64
+
+	RenderMarges			 bool
+	Marges					 float64
+
+	LifeSpan				 bool
+	LifeSpanDuration		 int
+	LifeSpanDurationRange	 int
+
+	CollisionsBords			 bool
+	CollisionsParticules	 bool
+
+	Fire					 bool
+	Rain					 bool
+	Rainbow					 bool
+	DVD						 bool
+
+	Corail					 bool
+	BottomColorRed			 float64
+	BottomColorGreen		 float64
+	BottomColorBlue			 float64
+
+	Circle					 bool
+	Fireworks				 bool
+	Snake					 bool
 }
 
 var General Config
