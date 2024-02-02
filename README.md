@@ -4,7 +4,7 @@
 
 I worked on this project in my first year of BUT in Computer Science.
 The goal of the project was to control 'particles'. It was divided in two parts:
-- This first one involved basic control of particles : spawning frequency, speed, orientation, gravity, color...
+- The first one involved basic control of particles : spawning frequency, speed, orientation, gravity, color...
 - The second one aimed at adding 'Extensions', where we were free to create whatever we wanted with particles.
 
 The project was developed in Go with the [Ebiten](https://ebitengine.org/) library for the user interface.
